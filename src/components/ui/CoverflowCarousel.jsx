@@ -286,27 +286,6 @@ const CoverflowCarousel = ({
             }}
           >
             {slides.map((slide, index) => (
-              //   <div
-              //     key={index}
-              //     ref={(node) => {
-              //       cardRefs.current[index] = node;
-              //     }}
-              //     className={cn(
-              //       "absolute left-1/2 top-0 aspect-square overflow-hidden rounded-2xl bg-gray-100 shadow-xl will-change-transform",
-              //       cardClassName,
-              //     )}
-              //     style={{
-              //       width: "var(--cf-card)",
-              //     }}
-              //   >
-              //     <img
-              //       src={slide.src}
-              //       alt={slide.alt}
-              //       draggable={false}
-              //       className="h-full w-full select-none object-cover"
-              //     />
-              //   </div>
-
               <div
                 key={index}
                 ref={(node) => {
