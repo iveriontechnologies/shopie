@@ -7,7 +7,7 @@ const PublicLayout = () => {
     <div className="flex w-full p-4 min-h-screen">
       <div className="mx-auto flex min-h-[calc(100vh-2rem)] w-full max-w-[1460px] gap-4">
         <Navbar />
-        <div className="bg-white rounded-[var(--radius-2xl)] w-full">
+        <div className="bg-white rounded-[var(--radius-2xl)] w-full shadow-shadow-lg-2">
           <Outlet />
         </div>
       </div>
