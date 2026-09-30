@@ -66,7 +66,7 @@ const AuthPage = () => {
             name="password"
             value={formData.password}
             onChange={handleChange}
-          />
+          />  
           <Button size="lg" className="w-full">
             {status === "Sign in" ? "Sign in" : "Create account"}
           </Button>
